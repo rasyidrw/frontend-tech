@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:whitesmoke;
+  font-family: 'Rubik', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}

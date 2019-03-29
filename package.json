@@ -1,0 +1,49 @@
+{
+  "name": "frontend-tech",
+  "version": "1.0.0",
+  "description": "app that shows stocks in OHLC chart",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist",
+    "publish": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rasyidrw/frontend-tech.git"
+  },
+  "author": {
+    "name": "Rasyid Respati Wiriaatmaja",
+    "email": "rasyidrespati.30@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasyidrw/frontend-tech/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.2",
+    "gh-pages": "^2.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.6.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.5",
+    "@emotion/styled": "^10.0.5",
+    "axios": "^0.18.0",
+    "babel-plugin-emotion": "^10.0.5",
+    "dotenv-webpack": "^1.6.0",
+    "emotion-theming": "^10.0.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
